@@ -12,7 +12,6 @@ body {
   float: left;
 }
 
-
 .container {
   text-transform: uppercase;
   font-family: sans-serif;
@@ -56,20 +55,19 @@ div {
 }
 
 .preview-baku {
-  background: url("images/baku.jpg") no-repeat left;
+  background-image: url("images/baku.jpg") no-repeat left;
   background-size: cover;
   margin: 10px 0 10px 0;
-}
 
 .preview-baku h1 {
   text-align: left;
 }
 
 .preview-london {
-  background: url("images/london.png") no-repeat right;
+  background-image: url("images/london.png") no-repeat right;
   background-size: cover;
-  margin: 10px 0 10px 0;
   height: 300px;
+  margin: 10px 0 10px 0;
 }
 
 .preview-london h1 {
@@ -77,8 +75,7 @@ div {
 }
 
 .preview-madrid {
-  background: url("images/madrid.jpg") no-repeat left;
-  background-size: cover;
+  background-image: url("images/madrid.jpg") no-repeat left;
   height: 265px;
   margin: 10px 0 10px 0;
 }
@@ -88,7 +85,7 @@ div {
 }
 
 .preview-rome {
-  background: url("images/rome.jpg") no-repeat left;
+  background-image: url("images/rome.jpg") no-repeat left;
   background-size: cover;
   height: 275px;
   margin: 10px 0 10px 0;
