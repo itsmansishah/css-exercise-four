@@ -30,14 +30,14 @@ div {
 }
 
 @media screen and (min-width: 575px) {
-  .div {
+  div {
     margin: 1%;
     width: 50%;
   }
 }
 
 @media screen (min-width: 900px) {
-  .div {
+  div {
     padding: 1%;
     width: 25%;
   }
